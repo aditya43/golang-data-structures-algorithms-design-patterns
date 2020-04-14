@@ -1,4 +1,4 @@
-# :trophy: Go Language (Data Structures, Algorithms and Design Patterns)
+# :trophy: Go: Data Structures, Algorithms and Design Patterns
 Data Structures, Algorithms and Design Patterns along with AR|VR|MR landscape. In-depth internals, my personal notes, example codes and projects.
 
 ## Author
