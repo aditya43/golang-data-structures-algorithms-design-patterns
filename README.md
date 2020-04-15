@@ -46,3 +46,17 @@ Open-sourced software licensed under the [MIT license](http://opensource.org/lic
 - Undo functionality in Photoshop or Word (a linked list of state)
 
 ----------------------------------------
+
+### Applications of stack
+
+- The basic application of stack is **backtracking**. i.e. to track (keep a record) of from where we begun to where we got.
+- Stacks are used in **undo** mechanism in text editor.
+- Language processing:
+    * space for parameters and local variables is created internally using a stack.
+    * compiler's syntax check for matching braces is implemented by using stack.
+    * support for recursion.
+    * Expression evaluation like postfix or prefix in compilers.
+- Backtracking (game playing, finding paths, exhaustive searching.
+- Memory management, run-time environment for nested language features. etc
+
+----------------------------------------
