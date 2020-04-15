@@ -73,5 +73,18 @@ func main() {
 		}
 	}
 
+	fmt.Print("\n------------FULL LINKED LIST - BACKWARD-------------\n")
+
+	for {
+		fmt.Printf("%s", t.value)
+		t = t.Prev()
+
+		if t == nil {
+			break
+		} else {
+			fmt.Print(" <-- ")
+		}
+	}
+
 	fmt.Print("\n----------------------------------------------------\n")
 }
