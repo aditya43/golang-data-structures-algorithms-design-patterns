@@ -1,4 +1,4 @@
-// Queue - FIFO - Using channels
+// Queue - FIFO - Using Channels
 package main
 
 import "fmt"
