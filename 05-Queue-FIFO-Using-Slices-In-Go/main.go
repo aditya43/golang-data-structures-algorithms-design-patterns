@@ -1,4 +1,4 @@
-// Queue - FIFO
+// Queue - FIFO - Using Slices
 package main
 
 import "fmt"
