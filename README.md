@@ -47,7 +47,7 @@ Open-sourced software licensed under the [MIT license](http://opensource.org/lic
 
 ----------------------------------------
 
-### Applications of stack
+### Applications of stack (LIFO)
 
 - The basic application of stack is **backtracking**. i.e. to track (keep a record) of from where we begun to where we got.
 - Stacks are used in **undo** mechanism in text editor.
@@ -58,5 +58,21 @@ Open-sourced software licensed under the [MIT license](http://opensource.org/lic
     * Expression evaluation like postfix or prefix in compilers.
 - Backtracking (game playing, finding paths, exhaustive searching.
 - Memory management, run-time environment for nested language features. etc
+- Arithmetic expression evaluation. An important application of stacks is in parsing. For example, a compiler must parse arithmetic expressions written using infix notation. For example the following infix expression evaluates to 212.
+    ```go
+    ( 2 + ( ( 3 + 4 ) * ( 5 * 6 ) ) )   // 212
+    ```
+- Function-call abstraction. Most programs use stacks implicitly because they support a natural way to implement function calls, as follows: at any point during the execution of a function, define its state to be the values of all of its variables and a pointer to the next instruction to be executed. The natural way to implement the function-call abstraction is to use a stack. To call a function, push the state on a stack. To return from a function call, pop the state from the stack to restore all variables to their values before the function call and resume execution at the next instruction to be executed.
+
 
 ----------------------------------------
+
+### Applications of queue (FIFO)
+
+- Queue is a `FIFO linear data structure` and inserting a new element takes place from an end called `rear`, and removal of existing element takes place from other end called `front`.
+- When a resource is shared among multiple consumers. Examples include CPU scheduling, Disk Scheduling.
+- When data is transferred asynchronously (data not necessarily received at same rate as sent) between two processes. Examples include IO Buffers, pipes, file IO, etc.
+- Queue is used in **BFS(Breadth First Search)** algorithm. It helps in traversing a tree or graph.
+- Queue is also used by Operating systems for job scheduling.
+Q- ueue is used in networking to handle congestion.
+- **Snake Game** in old Nokia phones.
