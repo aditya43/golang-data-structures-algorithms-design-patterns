@@ -15,7 +15,7 @@ func (s *Stack) Pop() string {
 	front := len(s.items)
 
 	if front < 1 {
-		return "0 items left in stack to pop"
+		return "0 items left in Stack to pop"
 	}
 
 	item, items := s.items[front-1], s.items[0:front-1]
