@@ -76,3 +76,25 @@ Open-sourced software licensed under the [MIT license](http://opensource.org/lic
 - Queue is also used by Operating systems for job scheduling.
 Q- ueue is used in networking to handle congestion.
 - **Snake Game** in old Nokia phones.
+
+----------------------------------------
+
+### Applications of binary trees
+
+- The reason that binary trees are used more often than `n-ary` trees for searching is that `n-ary` trees are more complex, but usually provide no real speed advantage.
+- In a (balanced) binary tree with `m` nodes, moving from one level to the next requires one comparison, and there are `log_2(m)` levels, for a total of `log_2(m)` comparisons.
+- [Binary Search Tree](http://en.wikipedia.org/wiki/Binary_search_tree) - Used in **many** search applications where data is constantly entering/leaving, such as the `map` and `set` objects in many languages' libraries.
+- [Binary Space Partition](http://en.wikipedia.org/wiki/Binary_space_partitioning) - Used in almost every 3D video game to determine what objects need to be rendered.
+- [Binary Tries](http://en.wikipedia.org/wiki/Radix_tree) - Used in almost every high-bandwidth router for storing router-tables.
+- [Hash Trees](http://en.wikipedia.org/wiki/Hash_tree) - used in p2p programs and specialized image-signatures in which a hash needs to be verified, but the whole file is not available.
+- [Heaps](http://en.wikipedia.org/wiki/Heap_(data_structure)) - Used in implementing efficient priority-queues, which in turn are used for scheduling processes in many operating systems, Quality-of-Service in routers, and A* *(path-finding algorithm used in AI applications, including robotics and video games)*.  Also used in heap-sort.
+- [Huffman Coding Tree](http://en.wikipedia.org/wiki/Huffman_coding) ([Chip Uni](https://stackoverflow.com/questions/2130416/what-are-the-applications-of-binary-trees/2174096#2174096)) - used in compression algorithms, such as those used by the .jpeg and .mp3 file-formats.
+- [GGM Trees](http://www.wisdom.weizmann.ac.il/~/oded/ggm.html) - Used in cryptographic applications to generate a tree of pseudo-random numbers.
+- [Syntax Tree](http://en.wikipedia.org/wiki/Abstract_syntax_tree) - Constructed by compilers and (implicitly) calculators to parse expressions.
+- [Treap](http://en.wikipedia.org/wiki/Treap) - Randomized data structure used in wireless networking and memory allocation.
+- [T-tree](http://en.wikipedia.org/wiki/T-tree) - Though most databases use some form of B-tree to store data on the drive, databases which keep all (most) their data in memory often use T-trees to do so.
+- The organization of Morse code is a binary tree:
+
+![diagram](./08-Binary-Search/morse.jpg)
+
+----------------------------------------
