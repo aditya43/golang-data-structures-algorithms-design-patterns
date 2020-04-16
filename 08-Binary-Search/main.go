@@ -68,7 +68,6 @@ func (n *Node) Search(value int) {
 		fmt.Printf("Iterations Took: %d", interations)
 		fmt.Print("\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n")
 		return
-		return
 	}
 
 	interations++
